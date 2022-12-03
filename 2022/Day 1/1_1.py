@@ -1,8 +1,8 @@
 temp_sum = 0
 elves_cal = []
 
-with open('input_1_1.txt') as input_1_1:
-    for line in input_1_1:
+with open('input.txt') as input_txt:
+    for line in input_txt:
         if line == '\n':
             elves_cal.append(temp_sum)
             temp_sum = 0
